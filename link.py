@@ -16,5 +16,5 @@ for key, value in urls.items():
 # Pide al usuario que seleccione una opción
 opcion = int(input("Ingrese el número de la opción: "))
 
-# Abre la URL seleccionada
-webbrowser.open(urls[opcion])
+# Abre la URL seleccionada en el navegador
+os.system(f"am start -a android.intent.action.VIEW -d {urls[opcion]}")
