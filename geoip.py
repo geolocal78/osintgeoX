@@ -1,7 +1,7 @@
 import requests
 
 def obtener_ubicacion(ip):
-    url = f"(link unavailable)"
+url = f "http://ip-api.com/json/{ip}"
     response = requests.get(url)
     return response.json()
 
