@@ -1,13 +1,20 @@
-import webbrowser                                                                                  2                                                                                                    3 url = "https://minosis.com"  # Reemplaza con la URL
-webbrowser.open(url)
-print("https://minosis.com")
-print("https://www.indec.gob.ar")
-print("https://www.afip.gob.ar")
-print("https://www.bcra.gob.ar")
-print("https://www.economia.gob.ar")
-print("https://www.trabajo.gob.ar")
-print("https://www.argentina.gob.ar/salud")
-print("https://www.argentina.gob.ar/superintendencia-de-seguros-de-la-nacion")
-print("https://www.cammesa.com")
-print("http://www.uca.edu.ar")
-print("https://www.dpn.gob.ar")
+import webbrowser
+
+# Define las URLs
+urls = {
+    1: "https://minosis.com",
+    2: "https://www.indec.gob.ar",
+    3: "https://www.afip.gob.ar",
+    4: "https://www.bcra.gob.ar",
+    }
+
+# Muestra el menú de opciones
+print("Seleccione una opción:")
+for key, value in urls.items():
+    print(f"{key}: {value}")
+
+# Pide al usuario que seleccione una opción
+opcion = int(input("Ingrese el número de la opción: "))
+
+# Abre la URL seleccionada
+webbrowser.open(urls[opcion])
