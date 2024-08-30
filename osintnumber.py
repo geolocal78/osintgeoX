@@ -37,9 +37,9 @@ def menu():
     if opcion == "1":
         os.system("python phoneinfoga")
     elif opcion == "2":
-        os.system("python (link unavailable)")
+        os.system("python link.py")
     elif opcion == "3":
-        os.system("python (link unavailable)")
+        os.system("python geoip.py")
     else:
         print("\033[1;31mOpción inválida. Por favor, seleccione una opción válida.\033[0m")
 
