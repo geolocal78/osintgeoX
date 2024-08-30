@@ -1,0 +1,2 @@
+# osintgeoX
+osint, geolocalizar.
