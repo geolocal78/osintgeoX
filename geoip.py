@@ -8,7 +8,7 @@ def get_geoip(ip):
 def main():
     print("-----------------------------↓")
     ip = input("Ingrese la dirección IP: ")
-    ubicacion = obtener_ubicacion(ip)
+    ubicacion = get_geoip(ip)
 
     print("\033[1;34m\n======================================\033[0m")
     print("\033[1;34m Ubicación Geográfica \033[0m")
