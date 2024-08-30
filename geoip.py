@@ -1,7 +1,7 @@
 import requests
-
-def obtener_ubicacion(ip):
-url = f"http://ip-api.com/json/{ip}"
+def get_geoip(ip):
+    url = f"http://ip-api.com/json/{ip}"
+    # resto del código
     response = requests.get(url)
     return response.json()
 
