@@ -13,7 +13,7 @@ def menu():
     print("| |")
     print("|__ᴀᴀʀᴏɴ_ ___ __ _ _ _ _ _ _ _ _ _|")
 
-    print(f"\033[1;34m¡Hola, {usuario}! Seleccione una herramienta de geolocalización:\033[0m")
+    print(f"\033[1;34m¡Hola, {usuarios}! Seleccione una herramienta de geolocalización:\033[0m")
     print("")
     print("")
     print("➣")
