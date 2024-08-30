@@ -1,4 +1,4 @@
-import webbrowser
+import os
 
 # Define las URLs
 urls = {
