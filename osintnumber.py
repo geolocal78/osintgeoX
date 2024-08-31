@@ -20,7 +20,7 @@ def menu():
     print("\033[1;34mSeleccione una herramienta de geolocalización:\033[0m")
     print("")
     print("➣")
-    print("\033[1;32m1. PhoneInfoga - Información de teléfonos\033[0m")
+    print("\033[1;32m1. luego - Información de teléfonos\033[0m")
     print("")
     print("")
     print("➣")
