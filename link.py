@@ -2,7 +2,7 @@ import os
 
 # Define las URLs
 urls = {
-    1: "https://minosis.com",
+    1: "https://www.nosis.com/es/informes-comerciales/minosis",
     2: "https://www.indec.gob.ar",
     3: "https://www.afip.gob.ar",
     4: "https://www.bcra.gob.ar",
